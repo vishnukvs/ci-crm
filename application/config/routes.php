@@ -63,8 +63,9 @@
 | provided in the URL cannot be matched to a valid route.
 |
 */
+$route['default_controller'] = 'mysite';
+$route['mysite/quotes'] = 'mysite/quotes';
 
-$route['default_controller'] = 'mySite';
 $route['404_override'] = '';
 
 /* End of file routes.php */
