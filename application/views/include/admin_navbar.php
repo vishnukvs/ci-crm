@@ -3,11 +3,11 @@
         <div class="navbar-inner">
           <div class="container">
             <ul class="nav">
-              <li class="active"><a href="#"><i class="icon-home "></i>Home</a></li>
-                <li><a href="#">Quotes</a></li>
+              <li class="active"><?=anchor('mysite/index','Home');?></li>
+                <li class="active"><?=anchor('mysite/quotes','Quotes');?></li>
                 <li><a href="#">Events</a></li>
                 <li><a href="#">Clients</a></li>
-                <li><a href="#">Venues</a></li>
+                <li><?=anchor('mysite/venues','Venues');?></li>
                 <li><a href="#">Expos</a></li>
                 <li><a href="#"><i class="icon-envelope icon-white"></i>Email</a></li>
            </ul>

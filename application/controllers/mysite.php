@@ -8,8 +8,7 @@ class MySite extends CI_Controller {
 
 	}
 	public function quotes(){
-		// echo ' in the quotes methd';
-		
+			
 		 $this->load->view('quotes_view');
 		
 	}

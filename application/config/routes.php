@@ -64,8 +64,6 @@
 |
 */
 $route['default_controller'] = 'mysite';
-$route['quotes'] = 'quotes';
-
 $route['404_override'] = '';
 
 /* End of file routes.php */
