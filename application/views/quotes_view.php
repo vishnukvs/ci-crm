@@ -1,4 +1,5 @@
- 
+ <?php $this->load->view('include/header');?>
+ <?php $this->load->view('include/admin_navbar');?>
  <div class="wrapper">
   <div class="row">
   <div class="span12">
@@ -306,3 +307,4 @@
   </div><!--/end of span12-->
   </div><!--end of row-->
   Page rendered in <strong>{elapsed_time}</strong> seconds.
+  <?php $this->load->view('include/footer');?>

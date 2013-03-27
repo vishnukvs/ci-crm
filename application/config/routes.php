@@ -64,7 +64,7 @@
 |
 */
 $route['default_controller'] = 'mysite';
-$route['mysite/quotes'] = 'mysite/quotes';
+$route['quotes'] = 'quotes';
 
 $route['404_override'] = '';
 
