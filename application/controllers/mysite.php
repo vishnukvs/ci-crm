@@ -37,6 +37,7 @@ class MySite extends CI_Controller {
 		$this->form_validation->set_rules('firstname', 'firstname', 'required|xss_clean');
 		$this->form_validation->set_rules('surname', 'surname ', 'required|xss_clean');
 		$this->form_validation->set_rules('email', 'email', 'required|valid_email');
+		
 		if ($this->form_validation->run() == true)
 		{
 			$data = array(
@@ -47,9 +48,11 @@ class MySite extends CI_Controller {
 			'contactnumber'	   =>$this->input->post('phone'),
 			'healthcondtions'  =>$this->input->post('health_condtions'),
 
+
 	 		);
- 	
+	 			 			
  		}
+ 
  	if ($this->form_validation->run() == true && $this->register_model->register($data))
 		{ 
 			//check to see if we are creating the user
