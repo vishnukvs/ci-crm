@@ -4,9 +4,9 @@
           <div class="container">
             <ul class="nav">
               <li class="active"><?=anchor('mysite/index','Home');?></li>
-                <li class="active"><?=anchor('mysite/quotes','Quotes');?></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Clients</a></li>
+                <li><?=anchor('mysite/quotes','Quotes');?></li>
+                <li><?=anchor('mysite/events','Events');?></li>
+                <li><?=anchor('mysite/clients','Clients');?></li>
                 <li><?=anchor('mysite/venues','Venues');?></li>
                 <li><a href="#">Expos</a></li>
                 <li><a href="#"><i class="icon-envelope icon-white"></i>Email</a></li>
