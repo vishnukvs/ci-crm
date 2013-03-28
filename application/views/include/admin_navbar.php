@@ -3,13 +3,13 @@
         <div class="navbar-inner">
           <div class="container">
             <ul class="nav">
-              <li class="active"><?=anchor('mysite/index','Home');?></li>
-                <li><?=anchor('mysite/quotes','Quotes');?></li>
-                <li><?=anchor('mysite/events','Events');?></li>
-                <li><?=anchor('mysite/clients','Clients');?></li>
-                <li><?=anchor('mysite/venues','Venues');?></li>
-                <li><a href="#">Expos</a></li>
-                <li><a href="#"><i class="icon-envelope icon-white"></i>Email</a></li>
+                <li class="active"><a href="<?=base_url('/index');?>"><i class="icon-home icon-white"></i>Home</a></li>
+                <li><a href="<?=base_url('/quotes');?>">Quotes</a></li>
+                <li><a href="<?=base_url('/events');?>">Events</a></li>
+                <li><a href="<?=base_url('/clients');?>">Clients</a></li>
+                <li><a href="<?=base_url('/venues');?>">Veneus</a></li>
+                <li><a href="<?=base_url('/expos');?>">Expos</a></li>
+                <li><a href="<?=base_url('form');?>"><i class="icon-envelope icon-white"></i>Email</a></li>
            </ul>
             <form class="navbar-search pull-left">
             <input type="text" class="search-query" placeholder="Search">

@@ -11,7 +11,6 @@
           <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   <!-- Le styles -->
- 
     <link href="<?= base_url ('css/bootstrap.css');?>" rel="stylesheet" media="screen">
     <link href="<?= base_url ('css/bootstrap-responsive.css');?>" rel="stylesheet" media="screen">
     <link href="<?= base_url ('css/style.css');?>" rel="stylesheet" media="screen">
