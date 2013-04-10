@@ -3,6 +3,9 @@ body {
 /*	background: url(../img/body-bg.jpg) repeat-x;*/
 	
 }
+table {
+	width: 80%;
+}
 
 .top-banner{
 	position: absolute;
@@ -43,22 +46,107 @@ body {
 .dashboard{
 	margin-top: 80px;
 }
-
-
- .footer  {
-        height: 60px;
+ .footer {
+       	bottom: 0;
+        position: absolute;
         background-color: #f5f5f5;
-      	bottom: 0;
-      	position: absolute;
       	float:right;
       	text-align: center;
     }
 /****############quotes######### **/
-
 .wrapper{
  margin:0 0 0 30px;
 }
 #mypagi{
 	/*float:center;*/
 	margin-left: 300px;
+}
+.register{
+	margin-left:200px;
+
+}
+
+.side_button{
+	float:right;
+}
+
+.myform{
+	margin-left: 180px;
+	padding: 0 20px 15px;
+  	-webkit-border-radius: 0 0 6px 6px;
+  	-moz-border-radius: 0 0 6px 6px;
+ 	border-radius: 0 0 6px 6px;
+  	background-color: #eee;
+ 	background-image: -webkit-gradient(linear, center bottom, center top, from(#ddd), to(#eee));
+  	background-image: -moz-linear-gradient(90deg, #ddd, #eee);
+  	-webkit-box-shadow: 0 5px 20px #999;
+  	-moz-box-shadow: 0 5px 20px #999;
+  	box-shadow: 0 5px 20px #999;
+}
+/**########## Dashboard******/
+a.admin-brand {
+  display: block;
+  float: left;
+  padding: 12px 20px 12px;
+  margin-left: -20px;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1;
+  color: #aaa;
+}
+.admin-brand:hover {
+  text-decoration: none;
+}
+
+.navbar-inner-admin {
+  min-height: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color:#010101;
+ /* background-image:url(../../assets/img/bg-black-texture.png);*/
+  background-repeat:repeat-x;
+}
+.admin-top-bar {
+  min-height: 90px;
+  background-color:#fcfcfc;
+ /* background-image:url(../../assets/img/subtlenet2.png);*/
+  background-repeat:repeat-x;
+  -moz-box-shadow:inset 0px 1px 8px #a6a6a6;
+  -webkit-box-shadow:inset 0px 1px 8px #a6a6a6;
+  box-shadow:inset 0px 1px 8px #a6a6a6;
+}
+.admin-left-bar {
+  margin: 10px 0px 30px 0px;
+  border-radius:10px;
+  background-color:#333745;
+  /*background-image:url(../../assets/img/bg-admin-left.png);*/
+  background-repeat:repeat-y;
+}
+.side-nav {
+  list-style: none;
+  margin: 0 0 0 0;
+}
+.side-nav ul {
+}
+.side-nav li a{
+  color:#fcfcfc;
+  display: block;
+  padding: 12px 8px;
+  text-decoration:none;
+}
+.side-nav li a:hover {
+  color: #111;
+  background:#99aabb;
+}
+.side-nav li:first-child a:hover {
+  color: #111;
+  background:#99aabb;
+  border-top-right-radius:10px;
+  border-top-left-radius:10px;
+}
+.side-nav li:last-child a:hover {
+  color: #111;
+  background:#99aabb;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
 }
