@@ -28,24 +28,18 @@ class MySite extends CI_Controller {
 	}
 
 	public function events(){
-		$this->load->view('under_construction');
+		$this->load->view('events');
 	}
 	public function clients(){
-		$this->load->view('under_construction');
+		$this->load->view('clients');
 	}
 	public function venues(){
-		$this->load->view('under_construction');
+		$this->load->view('venues');
 	}
 	public function expos(){
-		$this->load->view('under_construction');
+		$this->load->view('expos');
 	}
 	
- 	// public function register(){
-	// 	$this->load->view('under_construction');
-	// }
-	function success()
-	{
-		$this->data['message'] = "<h1>User created successfully...</h1>";
-		$this->load->view('success', $this->data);
-	}
+ 	
+	
 }
