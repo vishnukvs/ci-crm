@@ -23,7 +23,7 @@ class MySite extends CI_Controller {
 	}
 	public function quotes(){
 			
-		 $this->load->view('quotes_view');
+		 $this->load->view('quotes');
 		
 	}
 	public function documents(){
