@@ -26,6 +26,9 @@ class MySite extends CI_Controller {
 		 $this->load->view('quotes_view');
 		
 	}
+	public function documents(){
+		$this->load->view('documents');
+	}
 
 	public function events(){
 		$this->load->view('events');
@@ -39,7 +42,9 @@ class MySite extends CI_Controller {
 	public function expos(){
 		$this->load->view('expos');
 	}
-	
+	public function notes(){
+		$this->load->view('notes');
+	}
  	
 	
 }

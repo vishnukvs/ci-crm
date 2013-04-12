@@ -2,8 +2,7 @@
 <link href="<?=base_url('fullcalendar/fullcalendar.css');?>" rel='stylesheet' />
  <link href="<?=base_url('fullcalendar/fullcalendar.print.css');?>" rel='stylesheet' media='print' />
 <?php $this->load->view('include/admin_navbar');?>
- 
-<div class="wrapper">
+ <div class="wrapper">
   <div class="row">
     <div class="span12">
       <h3> In the Main Dashboard</h3>
