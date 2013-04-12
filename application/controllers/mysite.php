@@ -5,12 +5,12 @@ class MySite extends CI_Controller {
 	public function __construct() {
 		parent:: __construct();
 		$this->load->model("register_model");
-        $this->load->library("form_validation");
-    }
+		$this->load->library("form_validation");
+	}
 
 	public function index(){
 
-    	$this->load->view('login');
+		$this->load->view('login');
 	}
 	public function dashboard(){
 		$this->load->view('dashboard');
@@ -22,8 +22,8 @@ class MySite extends CI_Controller {
 		$this->load->view('todo');
 	}
 	public function quotes(){
-			
-		 $this->load->view('quotes');
+
+		$this->load->view('quotes');
 		
 	}
 	public function documents(){
@@ -45,6 +45,8 @@ class MySite extends CI_Controller {
 	public function notes(){
 		$this->load->view('notes');
 	}
- 	
+	public function emails(){
+		$this->load->view('emails');
+	}
 	
 }
