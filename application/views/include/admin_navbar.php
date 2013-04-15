@@ -9,7 +9,7 @@
                 <li><a href="<?=base_url('/clients');?>">Clients</a></li>
                 <li><a href="<?=base_url('/venues');?>">Veneus</a></li>
                 <li><a href="<?=base_url('/expos');?>">Expos</a></li>
-                 <li><a href="<?=base_url('emails');?>"><i class="icon-envelope icon-white"></i>Email</a></li>
+                 <li><a href="<?=base_url('/emails');?>"><i class="icon-envelope icon-white"></i>Email</a></li>
             </ul>
             <form class="navbar-search pull-left">
             <input type="text" class="search-query" placeholder="Search">
@@ -21,7 +21,7 @@
                       <li><a href="#"><i class="icon-wrench"></i>  Setup</a></li>
                      <div class="divider">
                      </div>
-                    <li><a href="#">Logout</a>
+                    <li><a href="#">Logout</a></li>
                   </ul>
               </ul>
           </div>

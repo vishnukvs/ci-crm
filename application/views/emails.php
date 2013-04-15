@@ -70,6 +70,7 @@
         </a>
       </td>
     </tr>
+  </table>
   </div>
 </div><!--/span12-->
 </div><!--/end of row-->
