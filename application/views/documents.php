@@ -79,5 +79,4 @@
                   </div>
                 </div>
               </div>
-            </div><!--/end of container-->
-     <? $this->load->view('include/footer');?>
+       <? $this->load->view('include/footer');?>
