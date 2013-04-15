@@ -22,7 +22,6 @@ class MySite extends CI_Controller {
 		$this->load->view('todo');
 	}
 	public function quotes(){
-
 		$this->load->view('quotes');
 		
 	}
