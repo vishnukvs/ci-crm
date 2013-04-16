@@ -121,7 +121,7 @@
           <a class="btn btn-success" href="edit_venue.html">
           <i class="icon-edit icon-white"></i>Edit</a>                                  
           <a class="btn btn-danger" href="#">
-           <i class="icon-trash icon-white"></i>Delete</a>
+          <i class="icon-trash icon-white"></i>Delete</a>
         </td> 
       </tr>
     </table>
